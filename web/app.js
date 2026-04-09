@@ -126,7 +126,7 @@ function getLayoutMetrics() {
     return {
       pxPerMinuteX: 1.15,
       headerHeight: 22,
-      laneHeight: 54,
+      laneHeight: 46,
       laneGap: 4,
       gridPadding: 4
     };
@@ -134,7 +134,7 @@ function getLayoutMetrics() {
   return {
     pxPerMinuteX: 1.8,
     headerHeight: 26,
-    laneHeight: 68,
+    laneHeight: 56,
     laneGap: 6,
     gridPadding: 6
   };
@@ -257,7 +257,7 @@ function renderCalendarDay(day, events) {
     card.tabIndex = 0;
     card.title = event.isRemembered ? "Click to remove from Saved" : "Click to add to Saved";
     const left = (event.startMin - START_MINUTE) * layout.pxPerMinuteX;
-    const width = Math.max(88, (event.endMin - event.startMin) * layout.pxPerMinuteX);
+    const width = Math.max(72, (event.endMin - event.startMin) * layout.pxPerMinuteX);
     const top =
       layout.headerHeight + layout.gridPadding + event.lane * (layout.laneHeight + layout.laneGap);
     card.style.left = `${left}px`;
@@ -267,7 +267,6 @@ function renderCalendarDay(day, events) {
     card.innerHTML = `
       <div class="event-title">${cleanTitle(event.title)}</div>
       <div class="event-meta">${event.timeLabel}</div>
-      <div class="event-meta">${formatCost(event.cost)}</div>
     `;
     card.addEventListener("click", () => toggleRemembered(event));
     card.addEventListener("keydown", (keyboardEvent) => {
