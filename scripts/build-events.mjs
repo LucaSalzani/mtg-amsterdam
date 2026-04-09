@@ -34,12 +34,59 @@ function inferCostText(record) {
   return "Unknown";
 }
 
+function getOffsetMinutesForZone(date, timeZone) {
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    timeZoneName: "shortOffset",
+    hour: "2-digit"
+  });
+  const tzPart = formatter.formatToParts(date).find((part) => part.type === "timeZoneName")?.value;
+  if (!tzPart) return 0;
+  const match = tzPart.match(/^GMT([+-])(\d{1,2})(?::?(\d{2}))?$/i);
+  if (!match) return 0;
+  const sign = match[1] === "-" ? -1 : 1;
+  const hours = Number(match[2] ?? 0);
+  const minutes = Number(match[3] ?? 0);
+  return sign * (hours * 60 + minutes);
+}
+
+function parseAmsterdamLocalDateString(value) {
+  const match = String(value).match(
+    /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})(?::(\d{2}))?$/
+  );
+  if (!match) return null;
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const hour = Number(match[4]);
+  const minute = Number(match[5]);
+  const second = Number(match[6] ?? 0);
+
+  let utcMs = Date.UTC(year, month - 1, day, hour, minute, second);
+  // Iterate once or twice to account for offset changes around DST boundaries.
+  for (let i = 0; i < 3; i += 1) {
+    const offsetMinutes = getOffsetMinutesForZone(new Date(utcMs), AMSTERDAM_TZ);
+    const adjusted = Date.UTC(year, month - 1, day, hour, minute, second) - offsetMinutes * 60_000;
+    if (adjusted === utcMs) break;
+    utcMs = adjusted;
+  }
+
+  return new Date(utcMs);
+}
+
 function parseDateLike(value) {
   if (!value) return null;
   if (typeof value === "number") {
     const ms = value > 1e12 ? value : value * 1000;
     const d = new Date(ms);
     return Number.isNaN(d.getTime()) ? null : d;
+  }
+  if (
+    typeof value === "string" &&
+    /^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}(?::\d{2})?$/.test(value)
+  ) {
+    const amsterdamDate = parseAmsterdamLocalDateString(value);
+    if (amsterdamDate && !Number.isNaN(amsterdamDate.getTime())) return amsterdamDate;
   }
   const d = new Date(value);
   if (!Number.isNaN(d.getTime())) return d;
