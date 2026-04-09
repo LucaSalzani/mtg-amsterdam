@@ -2,14 +2,9 @@ const DATA_URL = "./data/events.normalized.json";
 const DAYS = ["Friday", "Saturday", "Sunday"];
 const SAVED_VIEW = "Saved";
 const TZ = "Europe/Amsterdam";
-const PX_PER_MINUTE_X = 2;
 const START_MINUTE = 8 * 60;
 const END_MINUTE = 24 * 60;
 const STORAGE_KEY = "mtg-amsterdam-remembered-v1";
-const HEADER_HEIGHT = 30;
-const LANE_HEIGHT = 84;
-const LANE_GAP = 8;
-const GRID_PADDING = 8;
 
 const state = {
   events: [],
@@ -125,6 +120,26 @@ function formatHourLabel(minutesFromMidnight) {
   return `${hour}:00`;
 }
 
+function getLayoutMetrics() {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  if (isMobile) {
+    return {
+      pxPerMinuteX: 1.15,
+      headerHeight: 22,
+      laneHeight: 54,
+      laneGap: 4,
+      gridPadding: 4
+    };
+  }
+  return {
+    pxPerMinuteX: 1.8,
+    headerHeight: 26,
+    laneHeight: 68,
+    laneGap: 6,
+    gridPadding: 6
+  };
+}
+
 function buildHourTicks() {
   const ticks = [];
   for (let minute = START_MINUTE; minute <= END_MINUTE; minute += 60) {
@@ -213,15 +228,16 @@ function renderCalendarDay(day, events) {
   const grid = node.querySelector(".day-grid");
   const labels = node.querySelector(".hour-labels");
   const layer = node.querySelector(".events-layer");
-  const hourWidth = 60 * PX_PER_MINUTE_X;
-  const timelineWidth = (END_MINUTE - START_MINUTE) * PX_PER_MINUTE_X;
+  const layout = getLayoutMetrics();
+  const hourWidth = 60 * layout.pxPerMinuteX;
+  const timelineWidth = (END_MINUTE - START_MINUTE) * layout.pxPerMinuteX;
   const dayEvents = events.filter((event) => event.renderDay === day);
   const laneCount = assignLanes(dayEvents);
   const timelineHeight =
-    HEADER_HEIGHT +
-    GRID_PADDING * 2 +
-    laneCount * LANE_HEIGHT +
-    Math.max(0, laneCount - 1) * LANE_GAP;
+    layout.headerHeight +
+    layout.gridPadding * 2 +
+    laneCount * layout.laneHeight +
+    Math.max(0, laneCount - 1) * layout.laneGap;
 
   grid.style.width = `${timelineWidth}px`;
   grid.style.height = `${timelineHeight}px`;
@@ -229,7 +245,7 @@ function renderCalendarDay(day, events) {
 
   labels.innerHTML = buildHourTicks()
     .map((minute) => {
-      const left = (minute - START_MINUTE) * PX_PER_MINUTE_X;
+      const left = (minute - START_MINUTE) * layout.pxPerMinuteX;
       return `<span class="hour-label" style="left:${left}px">${formatHourLabel(minute)}</span>`;
     })
     .join("");
@@ -240,13 +256,14 @@ function renderCalendarDay(day, events) {
     card.setAttribute("role", "button");
     card.tabIndex = 0;
     card.title = event.isRemembered ? "Click to remove from Saved" : "Click to add to Saved";
-    const left = (event.startMin - START_MINUTE) * PX_PER_MINUTE_X;
-    const width = Math.max(88, (event.endMin - event.startMin) * PX_PER_MINUTE_X);
-    const top = HEADER_HEIGHT + GRID_PADDING + event.lane * (LANE_HEIGHT + LANE_GAP);
+    const left = (event.startMin - START_MINUTE) * layout.pxPerMinuteX;
+    const width = Math.max(88, (event.endMin - event.startMin) * layout.pxPerMinuteX);
+    const top =
+      layout.headerHeight + layout.gridPadding + event.lane * (layout.laneHeight + layout.laneGap);
     card.style.left = `${left}px`;
     card.style.width = `${width}px`;
     card.style.top = `${top}px`;
-    card.style.height = `${LANE_HEIGHT}px`;
+    card.style.height = `${layout.laneHeight}px`;
     card.innerHTML = `
       <div class="event-title">${cleanTitle(event.title)}</div>
       <div class="event-meta">${event.timeLabel}</div>
@@ -421,6 +438,7 @@ async function init() {
   const payload = await response.json();
   state.events = Array.isArray(payload.events) ? payload.events : [];
   configureCostPerPersonSlider();
+  window.addEventListener("resize", () => render());
   render();
 }
 

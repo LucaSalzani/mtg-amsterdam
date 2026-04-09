@@ -121,12 +121,13 @@ header p {
   padding-bottom: 0.35rem;
   scrollbar-gutter: stable both-edges;
   overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 .day-title {
   margin: 0;
-  padding: 0.7rem;
-  font-size: 1rem;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.95rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -160,10 +161,10 @@ header p {
 
 .hour-label {
   position: absolute;
-  top: 7px;
+  top: 5px;
   transform: translateX(-50%);
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   letter-spacing: 0.02em;
 }
 
@@ -176,10 +177,10 @@ header p {
   position: absolute;
   border: 1px solid rgba(108, 192, 255, 0.65);
   background: rgba(108, 192, 255, 0.18);
-  border-radius: 8px;
-  padding: 0.35rem 0.45rem;
+  border-radius: 6px;
+  padding: 0.25rem 0.32rem;
   overflow: hidden;
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   cursor: pointer;
 }
 
@@ -191,7 +192,7 @@ header p {
 
 .event-title {
   font-weight: 700;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.08rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -200,7 +201,7 @@ header p {
 
 .event-meta {
   color: #d4e7f8;
-  line-height: 1.25;
+  line-height: 1.08;
 }
 
 .saved-view {
@@ -263,5 +264,110 @@ header p {
 
 .saved-remove {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.75rem 0.85rem 0.35rem;
+  }
+
+  header h1 {
+    font-size: 1.25rem;
+  }
+
+  header p {
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  .filters {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .view-selector {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 0.2rem;
+  }
+
+  .view-tab {
+    min-height: 32px;
+    font-size: 0.84rem;
+    padding: 0.24rem 0.52rem;
+  }
+
+  .filters label {
+    font-size: 0.86rem;
+  }
+
+  .slider-filter {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .slider-filter input[type="range"] {
+    width: 100%;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .filters input[type="text"] {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #status {
+    padding: 0.55rem 0.85rem;
+    font-size: 0.82rem;
+  }
+
+  .calendar,
+  .saved-view {
+    padding: 0 0.6rem 0.85rem;
+  }
+
+  .day-title {
+    padding: 0.45rem 0.55rem;
+    font-size: 0.88rem;
+  }
+
+  .timeline-scroll {
+    max-height: 68vh;
+  }
+
+  .hour-label {
+    font-size: 0.6rem;
+  }
+
+  .event-card {
+    font-size: 0.68rem;
+    padding: 0.18rem 0.24rem;
+    border-radius: 5px;
+  }
+
+  .event-title {
+    -webkit-line-clamp: 1;
+    margin-bottom: 0.05rem;
+  }
+
+  .event-meta {
+    line-height: 1.02;
+  }
+
+  .saved-card {
+    padding: 0.65rem;
+  }
+
+  .saved-actions {
+    flex-wrap: wrap;
+  }
 }
 

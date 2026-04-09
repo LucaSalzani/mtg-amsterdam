@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule.html",
   "leapUrl": "https://checkout.conventions.leapevent.tech/eh/djrdams26zzyj",
-  "scrapedAt": "2026-04-09T19:21:57.191Z",
+  "scrapedAt": "2026-04-09T20:58:44.694Z",
   "responseSources": [
     "https://api.reedexpo.com/analytics/cross-domain",
-    "https://api.reedexpo.com/mixpanel/track/?ip=1&_=1775762506143",
+    "https://api.reedexpo.com/mixpanel/track/?ip=1&_=1775768314080",
     "https://api.reedexpo.com/secure/connect/token",
     "https://cdn.cookielaw.org/consent/018e3e39-07e7-7fe7-9e8e-c279dfb70299/018e3e39-07e7-7fe7-9e8e-c279dfb70299.json",
     "https://cdn.cookielaw.org/consent/018e3e39-07e7-7fe7-9e8e-c279dfb70299/4d289a8a-3240-4653-9d8d-66a10270c22a/en.json",
@@ -18,7 +18,7 @@
     "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-    "https://reedexhibitions.tt.omtrdc.net/m2/reedexhibitions/mbox/json?mbox=target-global-mbox&mboxSession=22e03463fae34387bfcca2cbbff02c08&mboxPC=&mboxPage=358a1ad762f848bc87180bef8131dde3&mboxRid=e929921cd70848f69af79727d35611b6&mboxVersion=1.8.3&mboxCount=1&mboxTime=1775769704364&mboxHost=mcamsterdam.mtgfestivals.com&mboxURL=https%3A%2F%2Fmcamsterdam.mtgfestivals.com%2Fen-us%2Fmagic-play%2Fticketed-play-schedule.html&mboxReferrer=&mboxXDomain=enabled&browserHeight=720&browserWidth=1280&browserTimeOffset=120&screenHeight=720&screenWidth=1280&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=ANGLE%20%28Google%2C%20Vulkan%201.3.0%20%28SwiftShader%20Device%20%28Subzero%29%20%280x0000C0DE%29%29%2C%20SwiftShader%20driver%29"
+    "https://reedexhibitions.tt.omtrdc.net/m2/reedexhibitions/mbox/json?mbox=target-global-mbox&mboxSession=ff67d4acd31542c08809aae608b8d4fe&mboxPC=&mboxPage=966ed067b1104a6a8a6109d8b04f2aed&mboxRid=4c4a22c7d2ae481997f9e0d15038ae85&mboxVersion=1.8.3&mboxCount=1&mboxTime=1775775511841&mboxHost=mcamsterdam.mtgfestivals.com&mboxURL=https%3A%2F%2Fmcamsterdam.mtgfestivals.com%2Fen-us%2Fmagic-play%2Fticketed-play-schedule.html&mboxReferrer=&mboxXDomain=enabled&browserHeight=720&browserWidth=1280&browserTimeOffset=120&screenHeight=720&screenWidth=1280&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=ANGLE%20%28Google%2C%20Vulkan%201.3.0%20%28SwiftShader%20Device%20%28Subzero%29%20%280x0000C0DE%29%29%2C%20SwiftShader%20driver%29"
   ],
   "eventCount": 444,
   "events": [
@@ -4612,72 +4612,6 @@
     },
     {
       "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
-      "title": "Duel Commander Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
-      "start": "2026-07-18 14:00:00",
-      "end": "2026-07-18 21:59:00",
-      "cost": null,
-      "tags": "Commander,Constructed,Cup,cEDH",
-      "location": "Ticketed Play",
-      "raw": {
-        "id": "926575",
-        "title": "Duel Commander Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
-        "description": "<p>Price inclusive of 21% VAT + €3.50 Service Fee</p><p>Duel Commander players join for fun, prizes, bragging rights and a trophy! Top 8 to take place Sunday, July 19th, at 11:30 am.</p><p><b>IMPORTANT REGISTRATION DETAILS</b><br /></p><p>Entry fees are inclusive of 21% VAT and €3.50 service fee.</p><p>You must complete the registration process to play. </p><p>If you purchased badges for someone else, you must transfer each badge so the recipient can register and purchase their own events. Failing to transfer a badge will delay their event. </p><p>Only the badge holder can register for Ticketed Play events. Registration details for events - https://mcamsterdam.mtgfestivals.com/en-us/badges/how-to-buy.html.</p><p><b>PARTICIPATION DETAILS</b></p><ul><li>Wizards Account required - https://myaccounts.wizards.com </li><li>After purchasing your event entry, update your event information to include your Wizards Account email address.</li></ul><p>Companion App used - https://magic.wizards.com/products/companion-app </p><ul><li>Companion App code found at the bottom of your confirmation email.</li><li>Enter the code before the start of your event.</li><li>If this is a team event, only <b>one</b>  teammate should enter the Companion App code.</li><li>You do <b>not</b> need to check in!</li></ul><p><b>TOURNAMENT DETAILS</b></p><ul><li>Constructed Tournament: Duel Commander-legal deck required.</li><li>Rules Enforcement Level: Regular PlusRegular Plus—decklists required. Top 8—Competitive.</li><li>Rounds: Max of seven (7) Swiss rounds based on attendance. 75 minutes per round. Cut to single-elimination Top 16.</li><li>Pods: 3 or 4 players</li><li>Estimated length of play: 6 to 8 hours</li></ul><p>Format details can be found at https://www.pastimesevents.com/formats.</p><p><b>PRIZES (per player per round)</b></p><ul><li>Win: 1,800 Prize Tix</li><li>Loss: 600 Prize Tix</li></ul><p><b>TOURNAMENT QUESTIONS?</b></p><p>Contact Pastimes Events on their Discord server at https://www.pastimesevents.com/discord.</p><p><em>All tournament add-ons are non-refundable and non-transferable and cannot be reproduced, resold or upgraded. Please carefully review the estimated tournament lengths for each tournament. We are unable to provide a refund if you purchase a tournament that starts before your previous tournament has finished.</em></p>",
-        "category": "",
-        "tags": "Commander,Constructed,Cup,cEDH",
-        "start_time": "2026-07-18 14:00:00",
-        "end_time": "2026-07-18 21:59:00",
-        "no_end_time": false,
-        "location": "Ticketed Play",
-        "people_list": "",
-        "image": [],
-        "people": [],
-        "schedule_categories": [
-          {
-            "id": "19757",
-            "name": "Ticketed Play",
-            "color": "",
-            "is_public": "1"
-          }
-        ],
-        "global_categories": [
-          {
-            "id": "19757",
-            "name": "Ticketed Play",
-            "color": "",
-            "is_public": "1"
-          }
-        ],
-        "schedule_tags": [
-          {
-            "tag": "Commander",
-            "id": "38229"
-          },
-          {
-            "tag": "Constructed",
-            "id": "38237"
-          },
-          {
-            "tag": "Cup",
-            "id": "38242"
-          },
-          {
-            "tag": "cEDH",
-            "id": "38258"
-          }
-        ],
-        "video_link": null,
-        "bonus_link": "",
-        "bonus_link_text": "",
-        "epic_photo_url": "",
-        "venue_location": {
-          "id": "74708",
-          "name": "Ticketed Play"
-        },
-        "livestream": ""
-      }
-    },
-    {
-      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
       "title": "Marvel Sealed - Magic: The Gathering | Marvel Super Heroes and Marvel's Spider-Man - €40 (Click here for more info)",
       "start": "2026-07-18 14:00:00",
       "end": "2026-07-18 17:59:00",
@@ -4849,6 +4783,72 @@
           {
             "tag": "Unknown",
             "id": "38234"
+          }
+        ],
+        "video_link": null,
+        "bonus_link": "",
+        "bonus_link_text": "",
+        "epic_photo_url": "",
+        "venue_location": {
+          "id": "74708",
+          "name": "Ticketed Play"
+        },
+        "livestream": ""
+      }
+    },
+    {
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "title": "Duel Commander Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+      "start": "2026-07-18 14:00:00",
+      "end": "2026-07-18 21:59:00",
+      "cost": null,
+      "tags": "Commander,Constructed,Cup,cEDH",
+      "location": "Ticketed Play",
+      "raw": {
+        "id": "926575",
+        "title": "Duel Commander Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+        "description": "<p>Price inclusive of 21% VAT + €3.50 Service Fee</p><p>Duel Commander players join for fun, prizes, bragging rights and a trophy! Top 8 to take place Sunday, July 19th, at 11:30 am.</p><p><b>IMPORTANT REGISTRATION DETAILS</b><br /></p><p>Entry fees are inclusive of 21% VAT and €3.50 service fee.</p><p>You must complete the registration process to play. </p><p>If you purchased badges for someone else, you must transfer each badge so the recipient can register and purchase their own events. Failing to transfer a badge will delay their event. </p><p>Only the badge holder can register for Ticketed Play events. Registration details for events - https://mcamsterdam.mtgfestivals.com/en-us/badges/how-to-buy.html.</p><p><b>PARTICIPATION DETAILS</b></p><ul><li>Wizards Account required - https://myaccounts.wizards.com </li><li>After purchasing your event entry, update your event information to include your Wizards Account email address.</li></ul><p>Companion App used - https://magic.wizards.com/products/companion-app </p><ul><li>Companion App code found at the bottom of your confirmation email.</li><li>Enter the code before the start of your event.</li><li>If this is a team event, only <b>one</b>  teammate should enter the Companion App code.</li><li>You do <b>not</b> need to check in!</li></ul><p><b>TOURNAMENT DETAILS</b></p><ul><li>Constructed Tournament: Duel Commander-legal deck required.</li><li>Rules Enforcement Level: Regular PlusRegular Plus—decklists required. Top 8—Competitive.</li><li>Rounds: Max of seven (7) Swiss rounds based on attendance. 75 minutes per round. Cut to single-elimination Top 8.</li><li>Pods: 3 or 4 players</li><li>Estimated length of play: 6 to 8 hours</li></ul><p>Format details can be found at https://www.pastimesevents.com/formats.</p><p><b>PRIZES (per player per round)</b></p><ul><li>Win: 1,800 Prize Tix</li><li>Loss: 600 Prize Tix</li></ul><p><b>TOURNAMENT QUESTIONS?</b></p><p>Contact Pastimes Events on their Discord server at https://www.pastimesevents.com/discord.</p><p><em>All tournament add-ons are non-refundable and non-transferable and cannot be reproduced, resold or upgraded. Please carefully review the estimated tournament lengths for each tournament. We are unable to provide a refund if you purchase a tournament that starts before your previous tournament has finished.</em></p>",
+        "category": "",
+        "tags": "Commander,Constructed,Cup,cEDH",
+        "start_time": "2026-07-18 14:00:00",
+        "end_time": "2026-07-18 21:59:00",
+        "no_end_time": false,
+        "location": "Ticketed Play",
+        "people_list": "",
+        "image": [],
+        "people": [],
+        "schedule_categories": [
+          {
+            "id": "19757",
+            "name": "Ticketed Play",
+            "color": "",
+            "is_public": "1"
+          }
+        ],
+        "global_categories": [
+          {
+            "id": "19757",
+            "name": "Ticketed Play",
+            "color": "",
+            "is_public": "1"
+          }
+        ],
+        "schedule_tags": [
+          {
+            "tag": "Commander",
+            "id": "38229"
+          },
+          {
+            "tag": "Constructed",
+            "id": "38237"
+          },
+          {
+            "tag": "Cup",
+            "id": "38242"
+          },
+          {
+            "tag": "cEDH",
+            "id": "38258"
           }
         ],
         "video_link": null,
@@ -6880,68 +6880,6 @@
     },
     {
       "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
-      "title": "Duel Commander Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
-      "start": "2026-07-19 11:30:00",
-      "end": "2026-07-19 14:29:00",
-      "cost": null,
-      "tags": "Constructed,Cup,cEDH",
-      "location": "Ticketed Play",
-      "raw": {
-        "id": "926611",
-        "title": "Duel Commander Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
-        "description": "<p>Price inclusive of 21% VAT + €3.50 Service Fee</p><p>The Top 8 Duel Commander Cup players play it out to find the champion!</p><p><b>IMPORTANT REGISTRATION DETAILS</b><br /></p><p>Entry fees are inclusive of 21% VAT and €3.50 service fee.</p><p>You must complete the registration process to play. </p><p>If you purchased badges for someone else, you must transfer each badge so the recipient can register and purchase their own events. Failing to transfer a badge will delay their event. </p><p>Only the badge holder can register for Ticketed Play events. Registration details for events - https://mcamsterdam.mtgfestivals.com/en-us/badges/how-to-buy.html.</p><p><b>PARTICIPATION DETAILS:</b></p><ul><li> This event will be run using a paper bracket</li></ul><p><b>TOURNAMENT DETAILS:</b></p><ul><li>Constructed Tournament: Duel Commander-legal deck required.</li><li>Rules Enforcement Level: Regular Plus - decklists required. Top 16 - Competitive.</li><li>Rounds: Two (2) single elimination rounds. Rounds are untimed.</li><li>Estimated length of play: 2 to 3 hours</li></ul><p>Format details can be found at: https://www.mtgdc.info/home.</p><p><b>TOP 8 PRIZES</b></p><ul><li>Participation in Top 8: Top 8 Playmat</li><li>1st: 10,000 Prize Tix, Winner Playmat and Trophy</li><li>2nd–4th: 6,000 Prize Tix</li><li>5th–8th: 4,000 Prize Tix</li></ul><p><b>TOURNAMENT QUESTIONS?</b></p><p>Contact Pastimes Events on their Discord server at https://www.pastimesevents.com/discord.</p><p><em>All tournament add-ons are non-refundable and non-transferable and cannot be reproduced, resold or upgraded. Please carefully review the estimated tournament lengths for each tournament. We are unable to provide a refund if you purchase a tournament that starts before your previous tournament has finished.</em></p>",
-        "category": "",
-        "tags": "Constructed,Cup,cEDH",
-        "start_time": "2026-07-19 11:30:00",
-        "end_time": "2026-07-19 14:29:00",
-        "no_end_time": false,
-        "location": "Ticketed Play",
-        "people_list": "",
-        "image": [],
-        "people": [],
-        "schedule_categories": [
-          {
-            "id": "19757",
-            "name": "Ticketed Play",
-            "color": "",
-            "is_public": "1"
-          }
-        ],
-        "global_categories": [
-          {
-            "id": "19757",
-            "name": "Ticketed Play",
-            "color": "",
-            "is_public": "1"
-          }
-        ],
-        "schedule_tags": [
-          {
-            "tag": "Constructed",
-            "id": "38237"
-          },
-          {
-            "tag": "Cup",
-            "id": "38242"
-          },
-          {
-            "tag": "cEDH",
-            "id": "38258"
-          }
-        ],
-        "video_link": null,
-        "bonus_link": "",
-        "bonus_link_text": "",
-        "epic_photo_url": "",
-        "venue_location": {
-          "id": "74708",
-          "name": "Ticketed Play"
-        },
-        "livestream": ""
-      }
-    },
-    {
-      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
       "title": "Magic: The Menu with Brian David-Marshall - €185 (Click here for more info)",
       "start": "2026-07-19 11:30:00",
       "end": "2026-07-19 15:29:00",
@@ -7101,6 +7039,68 @@
           {
             "tag": "Limited Championship Qualifier",
             "id": "38254"
+          }
+        ],
+        "video_link": null,
+        "bonus_link": "",
+        "bonus_link_text": "",
+        "epic_photo_url": "",
+        "venue_location": {
+          "id": "74708",
+          "name": "Ticketed Play"
+        },
+        "livestream": ""
+      }
+    },
+    {
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "title": "Duel Commander Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+      "start": "2026-07-19 11:30:00",
+      "end": "2026-07-19 14:29:00",
+      "cost": null,
+      "tags": "Constructed,Cup,cEDH",
+      "location": "Ticketed Play",
+      "raw": {
+        "id": "926611",
+        "title": "Duel Commander Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+        "description": "<p>Price inclusive of 21% VAT + €3.50 Service Fee</p><p>The Top 8 Duel Commander Cup players play it out to find the champion!</p><p><b>IMPORTANT REGISTRATION DETAILS</b><br /></p><p>Entry fees are inclusive of 21% VAT and €3.50 service fee.</p><p>You must complete the registration process to play. </p><p>If you purchased badges for someone else, you must transfer each badge so the recipient can register and purchase their own events. Failing to transfer a badge will delay their event. </p><p>Only the badge holder can register for Ticketed Play events. Registration details for events - https://mcamsterdam.mtgfestivals.com/en-us/badges/how-to-buy.html.</p><p><b>PARTICIPATION DETAILS:</b></p><ul><li> This event will be run using a paper bracket</li></ul><p><b>TOURNAMENT DETAILS:</b></p><ul><li>Constructed Tournament: Duel Commander-legal deck required.</li><li>Rules Enforcement Level: Regular Plus - decklists required. Top 8 - Competitive.</li><li>Rounds: Two (2) single elimination rounds. Rounds are untimed.</li><li>Estimated length of play: 2 to 3 hours</li></ul><p>Format details can be found at: https://www.mtgdc.info/home.</p><p><b>TOP 8 PRIZES</b></p><ul><li>Participation in Top 8: Top 8 Playmat</li><li>1st: 10,000 Prize Tix, Winner Playmat and Trophy</li><li>2nd–4th: 6,000 Prize Tix</li><li>5th–8th: 4,000 Prize Tix</li></ul><p><b>TOURNAMENT QUESTIONS?</b></p><p>Contact Pastimes Events on their Discord server at https://www.pastimesevents.com/discord.</p><p><em>All tournament add-ons are non-refundable and non-transferable and cannot be reproduced, resold or upgraded. Please carefully review the estimated tournament lengths for each tournament. We are unable to provide a refund if you purchase a tournament that starts before your previous tournament has finished.</em></p>",
+        "category": "",
+        "tags": "Constructed,Cup,cEDH",
+        "start_time": "2026-07-19 11:30:00",
+        "end_time": "2026-07-19 14:29:00",
+        "no_end_time": false,
+        "location": "Ticketed Play",
+        "people_list": "",
+        "image": [],
+        "people": [],
+        "schedule_categories": [
+          {
+            "id": "19757",
+            "name": "Ticketed Play",
+            "color": "",
+            "is_public": "1"
+          }
+        ],
+        "global_categories": [
+          {
+            "id": "19757",
+            "name": "Ticketed Play",
+            "color": "",
+            "is_public": "1"
+          }
+        ],
+        "schedule_tags": [
+          {
+            "tag": "Constructed",
+            "id": "38237"
+          },
+          {
+            "tag": "Cup",
+            "id": "38242"
+          },
+          {
+            "tag": "cEDH",
+            "id": "38258"
           }
         ],
         "video_link": null,
