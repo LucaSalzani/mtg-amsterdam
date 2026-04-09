@@ -1,4 +1,4 @@
-const DATA_URL = "/data/events.normalized.json";
+const DATA_URL = "./data/events.normalized.json";
 const DAYS = ["Friday", "Saturday", "Sunday"];
 const SAVED_VIEW = "Saved";
 const TZ = "Europe/Amsterdam";
