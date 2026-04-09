@@ -1,0 +1,2164 @@
+{
+  "builtAt": "2026-04-09T19:40:38.275Z",
+  "timezone": "Europe/Amsterdam",
+  "count": 126,
+  "warnings": [
+    "Missing cost, set to Unknown: Pro Tour Qualifier - Black - Top 32 (Click here for more info)",
+    "Missing cost, set to Unknown: Standard Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+    "Missing cost, set to Unknown: Second-Chance Pro Tour Qualifier (Click here for more info)",
+    "Missing cost, set to Unknown: Last Commander Standing - Top 16 -  - (Click here for more info)",
+    "Missing cost, set to Unknown: Duel Commander Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+    "Missing cost, set to Unknown: Pro Tour Qualifier - Gold - Constructed - Modern - Top 32 (Click here for more info)",
+    "Missing cost, set to Unknown: Battlebox - Sneaky Snacker - Top 8 (Click here for more info)",
+    "Missing cost, set to Unknown: Legacy Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+    "Missing cost, set to Unknown: Limited Championship Qualifier - Black - Top 32 (Click here for more info)",
+    "Missing cost, set to Unknown: Modern Cup - MagicCon: Amsterdam - Top 8  (Click here for more info)"
+  ],
+  "events": [
+    {
+      "title": "2HG - Collector Booster Sealed - Magic: The Gathering  | Marvel Super Heroes - €490 (Click here for more info)",
+      "start": "2026-07-17T09:00:00.000Z",
+      "end": "2026-07-17T12:59:00.000Z",
+      "cost": "€490",
+      "costValue": 490,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926506",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926506",
+      "tags": [
+        "Team",
+        "2HG",
+        "Collector",
+        "Sealed",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander - Precon Battle - Chaos - €95 (Click here for more info)",
+      "start": "2026-07-17T09:00:00.000Z",
+      "end": "2026-07-17T11:59:00.000Z",
+      "cost": "€95",
+      "costValue": 95,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926507",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926507",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Chaos",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Grand Melee - Deluxe Sealed - Magic: The Gathering  | Marvel Super Heroes with Ify Nwadiwe and Brian David Gilbert - €100 (Click here for more info)",
+      "start": "2026-07-17T09:00:00.000Z",
+      "end": "2026-07-17T12:59:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926508",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926508",
+      "tags": [
+        "Sealed",
+        "Grand Melee",
+        "Hosted",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander Sealed Draft with Commander at Home - €150 (Click here for more info)",
+      "start": "2026-07-17T09:30:00.000Z",
+      "end": "2026-07-17T13:29:00.000Z",
+      "cost": "€150",
+      "costValue": 150,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926511",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926511",
+      "tags": [
+        "Sealed",
+        "Commander",
+        "Hosted",
+        "Draft",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Pro Tour Qualifier - Black - Sealed - Magic: The Gathering  | Marvel Super Heroes - €125 (Click here for more info)",
+      "start": "2026-07-17T09:30:00.000Z",
+      "end": "2026-07-17T17:29:00.000Z",
+      "cost": "€125",
+      "costValue": 125,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926510",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926510",
+      "tags": [
+        "Sealed",
+        "Pro Tour Qualifier",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Unknown with Gavin Verhey - €100 (Click here for more info)",
+      "start": "2026-07-17T09:30:00.000Z",
+      "end": "2026-07-17T13:29:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926509",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926509",
+      "tags": [
+        "Hosted",
+        "Unknown",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Magic: The Gathering  | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-17T10:00:00.000Z",
+      "end": "2026-07-17T13:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926514",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926514",
+      "tags": [
+        "Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Last Commander Standing Qualifier - €60 (Click here for more info)",
+      "start": "2026-07-17T10:00:00.000Z",
+      "end": "2026-07-17T15:59:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926512",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926512",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Sealed - Magic: The Gathering® | Marvel Super Heroes - €135 (Click here for more info)",
+      "start": "2026-07-17T10:00:00.000Z",
+      "end": "2026-07-17T14:59:00.000Z",
+      "cost": "€135",
+      "costValue": 135,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926513",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926513",
+      "tags": [
+        "Team",
+        "Constructed",
+        "Trios",
+        "Modern",
+        "Legacy",
+        "Vintage",
+        "Challenging",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Pauper Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+      "start": "2026-07-17T10:30:00.000Z",
+      "end": "2026-07-17T17:29:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926515",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926515",
+      "tags": [
+        "Constructed",
+        "Cup",
+        "Pauper",
+        "Challenging",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Marvel Sealed - Magic: The Gathering | Marvel Super Heroes and Marvel's Spider-Man - €80 (Click here for more info)",
+      "start": "2026-07-17T11:00:00.000Z",
+      "end": "2026-07-17T14:59:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926517",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926517",
+      "tags": [
+        "Sealed",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Magic: The Gauntlet - Sealed, Draft, Merge - Magic: The Gathering  | Marvel Super Heroes - €70 (Click here for more info)",
+      "start": "2026-07-17T11:00:00.000Z",
+      "end": "2026-07-17T14:59:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926516",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926516",
+      "tags": [
+        "Sealed",
+        "Draft",
+        "Gauntlet",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Standard Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+      "start": "2026-07-17T11:30:00.000Z",
+      "end": "2026-07-17T19:29:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926519",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926519",
+      "tags": [
+        "Constructed",
+        "Cup",
+        "Standard",
+        "Challenging",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Mega-Draft - Lorwyn Eclipsed - €35 (Click here for more info)",
+      "start": "2026-07-17T12:00:00.000Z",
+      "end": "2026-07-17T15:59:00.000Z",
+      "cost": "€35",
+      "costValue": 35,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926520",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926520",
+      "tags": [
+        "Mega-Draft",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Sealed - Magic: The Gathering  | Marvel Super Heroes - €135 (Click here for more info)",
+      "start": "2026-07-17T12:00:00.000Z",
+      "end": "2026-07-17T15:59:00.000Z",
+      "cost": "€135",
+      "costValue": 135,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926521",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926521",
+      "tags": [
+        "Team",
+        "Sealed",
+        "Trios",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Battlebox - Sneaky Snacker Qualifier - €50 (Click here for more info)",
+      "start": "2026-07-17T12:30:00.000Z",
+      "end": "2026-07-17T15:29:00.000Z",
+      "cost": "€50",
+      "costValue": 50,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926522",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926522",
+      "tags": [
+        "Battlebox",
+        "Challenging",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-17T13:00:00.000Z",
+      "end": "2026-07-17T16:59:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926523",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926523",
+      "tags": [
+        "Team",
+        "2HG",
+        "Full Box Sealed",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Collector Booster Sealed - Magic: The Gathering  | Marvel Super Heroes - €250 (Click here for more info)",
+      "start": "2026-07-17T13:00:00.000Z",
+      "end": "2026-07-17T16:59:00.000Z",
+      "cost": "€250",
+      "costValue": 250,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926525",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926525",
+      "tags": [
+        "Collector",
+        "Sealed",
+        "Challenging",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-17T13:00:00.000Z",
+      "end": "2026-07-17T15:59:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926524",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926524",
+      "tags": [
+        "Commander",
+        "Full Box Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "All Play - Sealed - Mystery Booster 2 - €70 (Click here for more info)",
+      "start": "2026-07-17T13:30:00.000Z",
+      "end": "2026-07-17T17:29:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926526",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926526",
+      "tags": [
+        "Sealed",
+        "All Play",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Chaos Sealed with CardMarketLive - €55 (Click here for more info)",
+      "start": "2026-07-17T14:00:00.000Z",
+      "end": "2026-07-17T17:59:00.000Z",
+      "cost": "€55",
+      "costValue": 55,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926527",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926527",
+      "tags": [
+        "Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Competitive Draft - Magic: The Gathering  | Marvel Super Heroes - €100 (Click here for more info)",
+      "start": "2026-07-17T14:00:00.000Z",
+      "end": "2026-07-17T17:59:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926528",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926528",
+      "tags": [
+        "Draft",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Full-Box Sealed - Mystery Booster 2 - €285 (Click here for more info)",
+      "start": "2026-07-17T14:00:00.000Z",
+      "end": "2026-07-17T17:59:00.000Z",
+      "cost": "€285",
+      "costValue": 285,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926529",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926529",
+      "tags": [
+        "Team",
+        "Trios",
+        "Full Box Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Unknown Flashback - Full-Box Sealed - Grand Melee - Mystery Booster 2 - with Matt Tabak - €300 (Click here for more info)",
+      "start": "2026-07-17T14:30:00.000Z",
+      "end": "2026-07-17T19:30:00.000Z",
+      "cost": "€300",
+      "costValue": 300,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926530",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926530",
+      "tags": [
+        "Grand Melee",
+        "Hosted",
+        "Unknown",
+        "Full Box Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Chaos Chaos Chaos with LoadingReadyRun! - €120 (Click here for more info)",
+      "start": "2026-07-17T15:00:00.000Z",
+      "end": "2026-07-17T18:59:00.000Z",
+      "cost": "€120",
+      "costValue": 120,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926534",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926534",
+      "tags": [
+        "Chaos",
+        "Draft",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Chase the Planes - Sealed - Secrets of Strixhaven - €35 (Click here for more info)",
+      "start": "2026-07-17T15:00:00.000Z",
+      "end": "2026-07-17T18:59:00.000Z",
+      "cost": "€35",
+      "costValue": 35,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926531",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926531",
+      "tags": [
+        "Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Magic: The Gathering  | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-17T15:00:00.000Z",
+      "end": "2026-07-17T18:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926533",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926533",
+      "tags": [
+        "Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Modern, Legacy, Vintage Win an Oversized Card - €75 (Click here for more info)",
+      "start": "2026-07-17T15:00:00.000Z",
+      "end": "2026-07-17T19:59:00.000Z",
+      "cost": "€75",
+      "costValue": 75,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926532",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926532",
+      "tags": [
+        "Team",
+        "Trios",
+        "Modern",
+        "Legacy",
+        "Vintage",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Strixhaven Study Hall Mini-game Sealed with Brian David-Marshall - €100 (Click here for more info)",
+      "start": "2026-07-17T15:30:00.000Z",
+      "end": "2026-07-17T18:29:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926535",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926535",
+      "tags": [
+        "Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - 2HG - Sealed - Magic: The Gathering  | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-17T16:00:00.000Z",
+      "end": "2026-07-17T19:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926537",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926537",
+      "tags": [
+        "Team",
+        "2HG",
+        "Sealed",
+        "FNM",
+        "Friday Night Magic",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Constructed - Commander Party - Magic: The Gathering  | Marvel Super Heroes - €25 (Click here for more info)",
+      "start": "2026-07-17T16:00:00.000Z",
+      "end": "2026-07-17T18:59:00.000Z",
+      "cost": "€25",
+      "costValue": 25,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926536",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926536",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "FNM",
+        "Friday Night Magic",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Standard - Win a Box - €30 (Click here for more info)",
+      "start": "2026-07-17T16:00:00.000Z",
+      "end": "2026-07-17T18:59:00.000Z",
+      "cost": "€30",
+      "costValue": 30,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926538",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926538",
+      "tags": [
+        "Constructed",
+        "Standard",
+        "FNM",
+        "Friday Night Magic",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Collector Commander Precon Battle - Magic: The Gathering  | Marvel Super Heroes - €175 (Click here for more info)",
+      "start": "2026-07-17T17:00:00.000Z",
+      "end": "2026-07-17T19:59:00.000Z",
+      "cost": "€175",
+      "costValue": 175,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926540",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926540",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Chaos",
+        "FNM",
+        "Friday Night Magic",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Mega-Draft - Magic: The Gathering  | Marvel Super Heroes - €45 (Click here for more info)",
+      "start": "2026-07-17T17:00:00.000Z",
+      "end": "2026-07-17T20:59:00.000Z",
+      "cost": "€45",
+      "costValue": 45,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926541",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926541",
+      "tags": [
+        "Draft",
+        "FNM",
+        "Friday Night Magic",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Sealed - Magic: The Gathering  | Marvel Super Heroes - €45 (Click here for more info)",
+      "start": "2026-07-17T17:00:00.000Z",
+      "end": "2026-07-17T20:59:00.000Z",
+      "cost": "€45",
+      "costValue": 45,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926539",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926539",
+      "tags": [
+        "Sealed",
+        "FNM",
+        "Friday Night Magic",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Collector Booster Sealed - Magic: The Gathering  | Marvel Super Heroes - €735 (Click here for more info)",
+      "start": "2026-07-17T17:00:00.000Z",
+      "end": "2026-07-17T20:59:00.000Z",
+      "cost": "€735",
+      "costValue": 735,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926542",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926542",
+      "tags": [
+        "Team",
+        "Collector",
+        "Sealed",
+        "Trios",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Mini-Masters Extravaganza - €20 (Click here for more info)",
+      "start": "2026-07-17T17:30:00.000Z",
+      "end": "2026-07-17T20:29:00.000Z",
+      "cost": "€20",
+      "costValue": 20,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926543",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926543",
+      "tags": [
+        "Sealed",
+        "Mini-masters",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Modern - Win a Box - €30 (Click here for more info)",
+      "start": "2026-07-17T18:00:00.000Z",
+      "end": "2026-07-17T20:59:00.000Z",
+      "cost": "€30",
+      "costValue": 30,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926545",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926545",
+      "tags": [
+        "Constructed",
+        "Modern",
+        "FNM",
+        "Friday Night Magic",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Friday Night Magic - Pauper - Win a Box - €30 (Click here for more info)",
+      "start": "2026-07-17T18:00:00.000Z",
+      "end": "2026-07-17T20:59:00.000Z",
+      "cost": "€30",
+      "costValue": 30,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926544",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926544",
+      "tags": [
+        "Constructed",
+        "Pauper",
+        "FNM",
+        "Friday Night Magic",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Lightning Round - Commander - €15 (Click here for more info)",
+      "start": "2026-07-17T18:30:00.000Z",
+      "end": "2026-07-17T20:29:00.000Z",
+      "cost": "€15",
+      "costValue": 15,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926546",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926546",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Turbo",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - 2HG - Four-Pack Sealed - Mystery Booster 2 - €100 (Click here for more info)",
+      "start": "2026-07-17T18:30:00.000Z",
+      "end": "2026-07-17T20:29:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926548",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926548",
+      "tags": [
+        "Team",
+        "2HG",
+        "Sealed",
+        "Turbo",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - Four-Pack Sealed - Mystery Booster 2 - €50 (Click here for more info)",
+      "start": "2026-07-17T18:30:00.000Z",
+      "end": "2026-07-17T20:29:00.000Z",
+      "cost": "€50",
+      "costValue": 50,
+      "day": "Friday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926547",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926547",
+      "tags": [
+        "Sealed",
+        "Turbo",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Draft your Draft - Chaos - €80 (Click here for more info)",
+      "start": "2026-07-18T09:00:00.000Z",
+      "end": "2026-07-18T12:59:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926549",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926549",
+      "tags": [
+        "Team",
+        "2HG",
+        "Chaos",
+        "Draft",
+        "Challenging",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander - Precon Battle - Magic: The Gathering  | Marvel Super Heroes - €80 (Click here for more info)",
+      "start": "2026-07-18T09:00:00.000Z",
+      "end": "2026-07-18T11:59:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926551",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926551",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Grand Melee - Mega-Draft - Mystery Booster 2 with CardMarketLive - €70 (Click here for more info)",
+      "start": "2026-07-18T09:00:00.000Z",
+      "end": "2026-07-18T12:59:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926553",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926553",
+      "tags": [
+        "Commander",
+        "Grand Melee",
+        "Full Box Sealed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Last Commander Standing Qualifier - €60 (Click here for more info)",
+      "start": "2026-07-18T09:00:00.000Z",
+      "end": "2026-07-18T14:59:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926552",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926552",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Magic: The Gauntlet - Sealed, Draft, Merge - Magic: The Gathering  | Marvel Super Heroes - €70 (Click here for more info)",
+      "start": "2026-07-18T09:00:00.000Z",
+      "end": "2026-07-18T12:59:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926550",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926550",
+      "tags": [
+        "Sealed",
+        "Draft",
+        "Gauntlet",
+        "Social",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Constructed - Pauper - Win an Invite to Paupergeddon - €60 (Click here for more info)",
+      "start": "2026-07-18T09:30:00.000Z",
+      "end": "2026-07-18T16:29:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926555",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926555",
+      "tags": [
+        "Constructed",
+        "Pauper",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Limited Championship Qualifier - Black - €125 (Click here for more info)",
+      "start": "2026-07-18T09:30:00.000Z",
+      "end": "2026-07-18T16:29:00.000Z",
+      "cost": "€125",
+      "costValue": 125,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926554",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926554",
+      "tags": [
+        "Sealed",
+        "Limited Championship Qualifier",
+        "Competitive",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Untold Stories: Elspeth – Theros: Beyond Death Progressive Sealed with The Magic Story Podcast - €95 (Click here for more info)",
+      "start": "2026-07-18T09:30:00.000Z",
+      "end": "2026-07-18T13:29:00.000Z",
+      "cost": "€95",
+      "costValue": 95,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926556",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926556",
+      "tags": [
+        "Sealed",
+        "Hosted",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "All Play - Sealed - Mystery Booster 2 - €70 (Click here for more info)",
+      "start": "2026-07-18T10:00:00.000Z",
+      "end": "2026-07-18T13:59:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926560",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926560",
+      "tags": [
+        "Sealed",
+        "All Play",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Collector Booster Sealed - Magic: The Gathering  | Marvel Super Heroes - €250 (Click here for more info)",
+      "start": "2026-07-18T10:00:00.000Z",
+      "end": "2026-07-18T13:59:00.000Z",
+      "cost": "€250",
+      "costValue": 250,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926557",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926557",
+      "tags": [
+        "Collector",
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Pro Tour Qualifier - Black - Top 32 (Click here for more info)",
+      "start": "2026-07-18T10:00:00.000Z",
+      "end": "2026-07-18T13:59:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926559",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926559",
+      "tags": [
+        "Pro Tour Qualifier",
+        "Draft",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Collector Booster Sealed - Magic: The Gathering  | Marvel Super Heroes - €735 (Click here for more info)",
+      "start": "2026-07-18T10:00:00.000Z",
+      "end": "2026-07-18T13:59:00.000Z",
+      "cost": "€735",
+      "costValue": 735,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926558",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926558",
+      "tags": [
+        "Team",
+        "Collector",
+        "Sealed",
+        "Trios",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Lorehold - Mage Tower Showdown League - €80 (Click here for more info)",
+      "start": "2026-07-18T10:30:00.000Z",
+      "end": "2026-07-18T11:29:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926561",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926561",
+      "tags": [
+        "Sealed",
+        "League",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Prismari - Mage Tower Showdown League - €80 (Click here for more info)",
+      "start": "2026-07-18T10:30:00.000Z",
+      "end": "2026-07-18T11:29:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926562",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926562",
+      "tags": [
+        "Sealed",
+        "League",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Quandrix - Mage Tower Showdown League - €80 (Click here for more info)",
+      "start": "2026-07-18T10:30:00.000Z",
+      "end": "2026-07-18T11:29:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926563",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926563",
+      "tags": [
+        "Sealed",
+        "League",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Silverquill - Mage Tower Showdown League - €80 (Click here for more info)",
+      "start": "2026-07-18T10:30:00.000Z",
+      "end": "2026-07-18T11:29:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926564",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926564",
+      "tags": [
+        "Sealed",
+        "League",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Witherbloom - Mage Tower Showdown League - €80 (Click here for more info)",
+      "start": "2026-07-18T10:30:00.000Z",
+      "end": "2026-07-18T11:30:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926565",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926565",
+      "tags": [
+        "Sealed",
+        "League",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Collector Booster Sealed - Magic: The Gathering | Marvel Super Heroes - €490 (Click here for more info)",
+      "start": "2026-07-18T11:00:00.000Z",
+      "end": "2026-07-18T14:59:00.000Z",
+      "cost": "€490",
+      "costValue": 490,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926566",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926566",
+      "tags": [
+        "Team",
+        "2HG",
+        "Collector",
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Lorwyn Eclipsed - €80 (Click here for more info)",
+      "start": "2026-07-18T11:00:00.000Z",
+      "end": "2026-07-18T14:59:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926567",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926567",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Magic: The Gathering | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-18T11:00:00.000Z",
+      "end": "2026-07-18T14:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926568",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926568",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Standard Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+      "start": "2026-07-18T11:00:00.000Z",
+      "end": "2026-07-18T13:59:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926569",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926569",
+      "tags": [
+        "Constructed",
+        "Cup",
+        "Standard",
+        "Top 8",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Pro Tour Qualifier - Gold - Constructed - Modern - €100 (Click here for more info)",
+      "start": "2026-07-18T11:30:00.000Z",
+      "end": "2026-07-18T19:29:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926570",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926570",
+      "tags": [
+        "Pro Tour Qualifier",
+        "Constructed",
+        "Modern",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Duel Commander Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+      "start": "2026-07-18T12:00:00.000Z",
+      "end": "2026-07-18T19:59:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926575",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926575",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Cup",
+        "cEDH",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Marvel Sealed - Magic: The Gathering | Marvel Super Heroes and Marvel's Spider-Man - €40 (Click here for more info)",
+      "start": "2026-07-18T12:00:00.000Z",
+      "end": "2026-07-18T15:59:00.000Z",
+      "cost": "€40",
+      "costValue": 40,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926573",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926573",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Mixed Format - Standard, Modern, Limited - Win Oversized Cards - €75 (Click here for more info)",
+      "start": "2026-07-18T12:00:00.000Z",
+      "end": "2026-07-18T16:59:00.000Z",
+      "cost": "€75",
+      "costValue": 75,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926572",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926572",
+      "tags": [
+        "Team",
+        "Sealed",
+        "Trios",
+        "Modern",
+        "Standard",
+        "Mixed Format",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Unknown for Charity with Gavin Verhey - €100 (Click here for more info)",
+      "start": "2026-07-18T12:00:00.000Z",
+      "end": "2026-07-18T15:59:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926574",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926574",
+      "tags": [
+        "Hosted",
+        "Unknown",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Legacy Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+      "start": "2026-07-18T12:30:00.000Z",
+      "end": "2026-07-18T20:29:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926576",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926576",
+      "tags": [
+        "Constructed",
+        "Legacy",
+        "Cup",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-18T13:00:00.000Z",
+      "end": "2026-07-18T16:59:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926577",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926577",
+      "tags": [
+        "Team",
+        "2HG",
+        "Full Box Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander - Precon Party - Magic: The Gathering | Marvel Super Heroes - €80 (Click here for more info)",
+      "start": "2026-07-18T13:00:00.000Z",
+      "end": "2026-07-18T15:59:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926579",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926579",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Commander Party",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Constructed - Commander Deck Challenge: Black - €25 (Click here for more info)",
+      "start": "2026-07-18T13:00:00.000Z",
+      "end": "2026-07-18T15:59:00.000Z",
+      "cost": "€25",
+      "costValue": 25,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926578",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926578",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Modern Cup - MagicCon: Amsterdam - €60 (Click here for more info)",
+      "start": "2026-07-18T13:30:00.000Z",
+      "end": "2026-07-18T21:29:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926580",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926580",
+      "tags": [
+        "Constructed",
+        "Modern",
+        "Cup",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Battlebox - Sneaky Snacker Qualifier - €50 (Click here for more info)",
+      "start": "2026-07-18T14:00:00.000Z",
+      "end": "2026-07-18T16:59:00.000Z",
+      "cost": "€50",
+      "costValue": 50,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926581",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926581",
+      "tags": [
+        "Battlebox",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Competitive Draft - Magic: The Gathering | Marvel Super Heroes - €100 (Click here for more info)",
+      "start": "2026-07-18T14:30:00.000Z",
+      "end": "2026-07-18T18:29:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926582",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926582",
+      "tags": [
+        "Draft",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Grand Melee - Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-18T14:30:00.000Z",
+      "end": "2026-07-18T18:29:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926583",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926583",
+      "tags": [
+        "Team",
+        "Sealed",
+        "Grand Melee",
+        "Trios",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Deluxe Sealed - Unfinity - €120 (Click here for more info)",
+      "start": "2026-07-18T15:00:00.000Z",
+      "end": "2026-07-18T18:59:00.000Z",
+      "cost": "€120",
+      "costValue": 120,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926584",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926584",
+      "tags": [
+        "Team",
+        "2HG",
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "All Play - Sealed - Mystery Booster 2 - €70 (Click here for more info)",
+      "start": "2026-07-18T15:00:00.000Z",
+      "end": "2026-07-18T18:59:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926587",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926587",
+      "tags": [
+        "Sealed",
+        "All Play",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Chaos Chaos Chaos with LoadingReadyRun! - €120 (Click here for more info)",
+      "start": "2026-07-18T15:00:00.000Z",
+      "end": "2026-07-18T18:59:00.000Z",
+      "cost": "€120",
+      "costValue": 120,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926588",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926588",
+      "tags": [
+        "Draft",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Magic: The Gathering  | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-18T15:00:00.000Z",
+      "end": "2026-07-18T18:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926586",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926586",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Mega-Draft - Chase the Planes - Mystery Booster 2 - €70 (Click here for more info)",
+      "start": "2026-07-18T15:00:00.000Z",
+      "end": "2026-07-18T18:59:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926585",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926585",
+      "tags": [
+        "Mega-Draft",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Chaos Sealed - €65 (Click here for more info)",
+      "start": "2026-07-18T16:00:00.000Z",
+      "end": "2026-07-18T19:59:00.000Z",
+      "cost": "€65",
+      "costValue": 65,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926589",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926589",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander Party - Constructed - Magic: The Gathering  | Marvel Super Heroes - €25 (Click here for more info)",
+      "start": "2026-07-18T16:00:00.000Z",
+      "end": "2026-07-18T18:59:00.000Z",
+      "cost": "€25",
+      "costValue": 25,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926591",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926591",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Commander Party",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Secrets of Strixhaven - €80 (Click here for more info)",
+      "start": "2026-07-18T16:00:00.000Z",
+      "end": "2026-07-18T19:59:00.000Z",
+      "cost": "€80",
+      "costValue": 80,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926592",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926592",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-18T16:00:00.000Z",
+      "end": "2026-07-18T19:59:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926590",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926590",
+      "tags": [
+        "Team",
+        "Trios",
+        "Full Box Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Full-Box Sealed - Mystery Booster 2 - €285 (Click here for more info)",
+      "start": "2026-07-18T17:00:00.000Z",
+      "end": "2026-07-18T20:59:00.000Z",
+      "cost": "€285",
+      "costValue": 285,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926593",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926593",
+      "tags": [
+        "Team",
+        "2HG",
+        "Full Box Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander - Precon Battle - Chaos - €95 (Click here for more info)",
+      "start": "2026-07-18T17:00:00.000Z",
+      "end": "2026-07-18T19:59:00.000Z",
+      "cost": "€95",
+      "costValue": 95,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926594",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926594",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Chaos",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander and Cocktails with Brian David-Marshall - €200 (Click here for more info)",
+      "start": "2026-07-18T17:00:00.000Z",
+      "end": "2026-07-18T17:59:00.000Z",
+      "cost": "€200",
+      "costValue": 200,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926595",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926595",
+      "tags": [
+        "Sealed",
+        "Commander",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Mini-Masters Extravaganza - €20 (Click here for more info)",
+      "start": "2026-07-18T17:30:00.000Z",
+      "end": "2026-07-18T20:29:00.000Z",
+      "cost": "€20",
+      "costValue": 20,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926596",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926596",
+      "tags": [
+        "Sealed",
+        "Mini-masters",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Lightning Round - Commander - €15 (Click here for more info)",
+      "start": "2026-07-18T18:00:00.000Z",
+      "end": "2026-07-18T19:59:00.000Z",
+      "cost": "€15",
+      "costValue": 15,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926597",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926597",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - 2HG - Sealed - Magic: The Gathering  | Marvel Super Heroes - €75 (Click here for more info)",
+      "start": "2026-07-18T18:30:00.000Z",
+      "end": "2026-07-18T20:29:00.000Z",
+      "cost": "€75",
+      "costValue": 75,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926599",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926599",
+      "tags": [
+        "2HG",
+        "Sealed",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - Four-Pack Sealed - Mystery Booster 2 - €50 (Click here for more info)",
+      "start": "2026-07-18T18:30:00.000Z",
+      "end": "2026-07-18T20:29:00.000Z",
+      "cost": "€50",
+      "costValue": 50,
+      "day": "Saturday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926598",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926598",
+      "tags": [
+        "Sealed",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Second-Chance Pro Tour Qualifier (Click here for more info)",
+      "start": "2026-07-19T07:00:00.000Z",
+      "end": "2026-07-19T12:59:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926600",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926600",
+      "tags": [
+        "Pro Tour Qualifier",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Sunday Sealed and Stacked - €125 (Click here for more info)",
+      "start": "2026-07-19T08:30:00.000Z",
+      "end": "2026-07-19T14:29:00.000Z",
+      "cost": "€125",
+      "costValue": 125,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926601",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926601",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Grand Melee - Sealed - Magic: The Gathering  | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-19T09:00:00.000Z",
+      "end": "2026-07-19T12:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926607",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926607",
+      "tags": [
+        "Team",
+        "2HG",
+        "Sealed",
+        "Grand Melee",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Collector Commander - Precon Party - Magic: The Gathering  | Marvel Super Heroes - €175 (Click here for more info)",
+      "start": "2026-07-19T09:00:00.000Z",
+      "end": "2026-07-19T11:59:00.000Z",
+      "cost": "€175",
+      "costValue": 175,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926606",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926606",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Commander Party",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Constructed - Commander Deck Challenge: Gold - €25 (Click here for more info)",
+      "start": "2026-07-19T09:00:00.000Z",
+      "end": "2026-07-19T11:59:00.000Z",
+      "cost": "€25",
+      "costValue": 25,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926608",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926608",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Magic: The Gathering  | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-19T09:00:00.000Z",
+      "end": "2026-07-19T12:59:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926605",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926605",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Last Commander Standing - Top 16 -  - (Click here for more info)",
+      "start": "2026-07-19T09:00:00.000Z",
+      "end": "2026-07-19T10:59:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926603",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926603",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Constructed - Modern, Legacy, Vintage Win an Oversized Card - €75 (Click here for more info)",
+      "start": "2026-07-19T09:00:00.000Z",
+      "end": "2026-07-19T13:59:00.000Z",
+      "cost": "€75",
+      "costValue": 75,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926602",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926602",
+      "tags": [
+        "Team",
+        "Trios",
+        "Modern",
+        "Legacy",
+        "Vintage",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander Boxing League - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-19T09:30:00.000Z",
+      "end": "2026-07-19T10:29:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926604",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926604",
+      "tags": [
+        "Commander",
+        "Hosted",
+        "Constructed",
+        "League",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Constructed - Pauper - Win a Sheet - €40 (Click here for more info)",
+      "start": "2026-07-19T09:30:00.000Z",
+      "end": "2026-07-19T14:29:00.000Z",
+      "cost": "€40",
+      "costValue": 40,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926612",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926612",
+      "tags": [
+        "Constructed",
+        "Pauper",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Duel Commander Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+      "start": "2026-07-19T09:30:00.000Z",
+      "end": "2026-07-19T12:29:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926611",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926611",
+      "tags": [
+        "Constructed",
+        "Cup",
+        "cEDH",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Limited Championship Qualifier - Gold - €125 (Click here for more info)",
+      "start": "2026-07-19T09:30:00.000Z",
+      "end": "2026-07-19T14:59:00.000Z",
+      "cost": "€125",
+      "costValue": 125,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926609",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926609",
+      "tags": [
+        "Sealed",
+        "Limited Championship Qualifier",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Magic: The Menu with Brian David-Marshall - €185 (Click here for more info)",
+      "start": "2026-07-19T09:30:00.000Z",
+      "end": "2026-07-19T13:29:00.000Z",
+      "cost": "€185",
+      "costValue": 185,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926613",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926613",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Pro Tour Qualifier - Gold - Constructed - Modern - Top 32 (Click here for more info)",
+      "start": "2026-07-19T09:30:00.000Z",
+      "end": "2026-07-19T13:29:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926610",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926610",
+      "tags": [
+        "Pro Tour Qualifier",
+        "Constructed",
+        "Modern",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Unknown with Gavin Verhey - €200 (Click here for more info)",
+      "start": "2026-07-19T10:00:00.000Z",
+      "end": "2026-07-19T13:59:00.000Z",
+      "cost": "€200",
+      "costValue": 200,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926619",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926619",
+      "tags": [
+        "Team",
+        "2HG",
+        "Unknown",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Collector Booster Sealed - Magic: The Gathering  | Marvel Super Heroes - €250 (Click here for more info)",
+      "start": "2026-07-19T10:00:00.000Z",
+      "end": "2026-07-19T13:59:00.000Z",
+      "cost": "€250",
+      "costValue": 250,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926618",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926618",
+      "tags": [
+        "Collector",
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander - Full-Box Sealed - Chaos with Ify Nwadiwe and Brian David Gilbert - €180 (Click here for more info)",
+      "start": "2026-07-19T10:00:00.000Z",
+      "end": "2026-07-19T12:59:00.000Z",
+      "cost": "€180",
+      "costValue": 180,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926620",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926620",
+      "tags": [
+        "Commander",
+        "Full Box Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Constructed - Pauper - Win an Invite to Paupergeddon - €60 (Click here for more info)",
+      "start": "2026-07-19T10:00:00.000Z",
+      "end": "2026-07-19T16:59:00.000Z",
+      "cost": "€60",
+      "costValue": 60,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926617",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926617",
+      "tags": [
+        "Draft",
+        "Pick-Two",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Marvel Sealed - Magic: The Gathering | Marvel Super Heroes and Marvel's Spider-Man - €40 (Click here for more info)",
+      "start": "2026-07-19T10:00:00.000Z",
+      "end": "2026-07-19T13:59:00.000Z",
+      "cost": "€40",
+      "costValue": 40,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926622",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926622",
+      "tags": [
+        "Sealed",
+        "Secret Lair",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Team Trios - Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-19T10:00:00.000Z",
+      "end": "2026-07-19T13:59:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926614",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926614",
+      "tags": [
+        "Team",
+        "Trios",
+        "Full Box Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Battlebox - Sneaky Snacker - Top 8 (Click here for more info)",
+      "start": "2026-07-19T10:30:00.000Z",
+      "end": "2026-07-19T13:29:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926624",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926624",
+      "tags": [
+        "Battlebox",
+        "Top 8",
+        "Sneaky Snacker",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Legacy Cup - MagicCon: Amsterdam - Top 8 (Click here for more info)",
+      "start": "2026-07-19T10:30:00.000Z",
+      "end": "2026-07-19T13:29:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926625",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926625",
+      "tags": [
+        "Constructed",
+        "Cup",
+        "Pauper",
+        "Top 8",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Limited Championship Qualifier - Black - Top 32 (Click here for more info)",
+      "start": "2026-07-19T10:30:00.000Z",
+      "end": "2026-07-19T14:29:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926623",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926623",
+      "tags": [
+        "Draft",
+        "Limited Championship Qualifier",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Savvy Pin Traders - Sealed - Magic: The Gathering  | Marvel Super Heroes featuring a special pin! - €85 (Click here for more info)",
+      "start": "2026-07-19T10:30:00.000Z",
+      "end": "2026-07-19T11:29:00.000Z",
+      "cost": "€85",
+      "costValue": 85,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926616",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926616",
+      "tags": [
+        "League",
+        "Pin Trading",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "2HG - Commander Full-Box Sealed - Magic: The Gathering  | Marvel Super Heroes - €210 (Click here for more info)",
+      "start": "2026-07-19T11:00:00.000Z",
+      "end": "2026-07-19T14:59:00.000Z",
+      "cost": "€210",
+      "costValue": 210,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926626",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926626",
+      "tags": [
+        "Team",
+        "2HG",
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Competitive Draft - Magic: The Gathering  | Marvel Super Heroes - €100 (Click here for more info)",
+      "start": "2026-07-19T11:00:00.000Z",
+      "end": "2026-07-19T14:59:00.000Z",
+      "cost": "€100",
+      "costValue": 100,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926628",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926628",
+      "tags": [
+        "Draft",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Modern Cup - MagicCon: Amsterdam - Top 8  (Click here for more info)",
+      "start": "2026-07-19T11:00:00.000Z",
+      "end": "2026-07-19T14:59:00.000Z",
+      "cost": "Unknown",
+      "costValue": null,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926627",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926627",
+      "tags": [
+        "Constructed",
+        "Modern",
+        "Cup",
+        "Top 8",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Deluxe Sealed - Magic: The Gathering® | Marvel Super Heroes - €90 (Click here for more info)",
+      "start": "2026-07-19T11:30:00.000Z",
+      "end": "2026-07-19T15:29:00.000Z",
+      "cost": "€90",
+      "costValue": 90,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926630",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926630",
+      "tags": [
+        "Sealed",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - Team Trios - Sealed - Magic: The Gathering  | Marvel Super Heroes - €110 (Click here for more info)",
+      "start": "2026-07-19T11:30:00.000Z",
+      "end": "2026-07-19T14:55:00.000Z",
+      "cost": "€110",
+      "costValue": 110,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926629",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926629",
+      "tags": [
+        "Team",
+        "Sealed",
+        "Trios",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Commander - Precon Battle - Chaos - €95 (Click here for more info)",
+      "start": "2026-07-19T12:00:00.000Z",
+      "end": "2026-07-19T14:59:00.000Z",
+      "cost": "€95",
+      "costValue": 95,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926631",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926631",
+      "tags": [
+        "Commander",
+        "Precon",
+        "Chaos",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - 2HG - Sealed - Magic: The Gathering  | Marvel Super Heroes - €75 (Click here for more info)",
+      "start": "2026-07-19T12:00:00.000Z",
+      "end": "2026-07-19T13:59:00.000Z",
+      "cost": "€75",
+      "costValue": 75,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926632",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926632",
+      "tags": [
+        "2HG",
+        "Sealed",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "All Play - Sealed - Mystery Booster 2 - €70 (Click here for more info)",
+      "start": "2026-07-19T12:30:00.000Z",
+      "end": "2026-07-19T16:29:00.000Z",
+      "cost": "€70",
+      "costValue": 70,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926633",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926633",
+      "tags": [
+        "Sealed",
+        "All Play",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Lightning Round - Commander - €15 (Click here for more info)",
+      "start": "2026-07-19T13:00:00.000Z",
+      "end": "2026-07-19T14:59:00.000Z",
+      "cost": "€15",
+      "costValue": 15,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926635",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926635",
+      "tags": [
+        "Commander",
+        "Constructed",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    },
+    {
+      "title": "Turbo - Four-Pack Sealed - Mystery Booster 2 - €50 (Click here for more info)",
+      "start": "2026-07-19T13:00:00.000Z",
+      "end": "2026-07-19T15:55:00.000Z",
+      "cost": "€50",
+      "costValue": 50,
+      "day": "Sunday",
+      "source": "https://conventions.leapevent.tech/api/schedules?key=2456973d-93e4-4e06-86be-43df7983f527&category=19757",
+      "sourceEventId": "926634",
+      "eventUrl": "https://mcamsterdam.mtgfestivals.com/en-us/magic-play/ticketed-play-schedule/ticketed-play-information.html?gtID=926634",
+      "tags": [
+        "Sealed",
+        "Turbo",
+        "Ticketed Play"
+      ]
+    }
+  ]
+}

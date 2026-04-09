@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MagicCon Amsterdam Schedule Planner</title>
+    <link rel="stylesheet" href="/web/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MagicCon Amsterdam Schedule Planner</h1>
+      <p>Weekend schedule in convention local time (Europe/Amsterdam).</p>
+    </header>
+
+    <section class="filters">
+      <div id="viewSelector" class="view-selector" role="tablist" aria-label="Schedule view selector">
+        <button type="button" class="view-tab" data-view="Friday">Friday</button>
+        <button type="button" class="view-tab" data-view="Saturday">Saturday</button>
+        <button type="button" class="view-tab" data-view="Sunday">Sunday</button>
+        <button type="button" class="view-tab" data-view="Saved">Saved</button>
+      </div>
+      <label><input type="checkbox" id="excludeCommander" /> Exclude Commander</label>
+      <label><input type="checkbox" id="excludeLegacy" /> Exclude Legacy</label>
+      <label><input type="checkbox" id="excludeVintage" /> Exclude Vintage</label>
+      <label><input type="checkbox" id="excludeDay2" /> Exclude Day 2 / Top Cut events</label>
+      <label class="slider-filter">
+        Max cost per person:
+        <input id="maxCostPerPerson" type="range" min="0" max="500" step="5" />
+        <span id="maxCostPerPersonValue">Any</span>
+      </label>
+      <label class="search">
+        Title search
+        <input id="searchInput" type="text" placeholder="Type to filter titles..." />
+      </label>
+    </section>
+
+    <section id="status"></section>
+    <main id="calendar" class="calendar"></main>
+    <section id="savedView" class="saved-view" hidden></section>
+
+    <template id="dayTemplate">
+      <section class="day-column">
+        <h2 class="day-title"></h2>
+        <div class="day-grid">
+          <div class="hour-lines"></div>
+          <div class="events-layer"></div>
+        </div>
+      </section>
+    </template>
+
+    <script type="module" src="/web/app.js"></script>
+  </body>
+</html>
