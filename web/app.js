@@ -2,10 +2,14 @@ const DATA_URL = "./data/events.normalized.json";
 const DAYS = ["Friday", "Saturday", "Sunday"];
 const SAVED_VIEW = "Saved";
 const TZ = "Europe/Amsterdam";
-const PX_PER_MINUTE = 1;
+const PX_PER_MINUTE_X = 2;
 const START_MINUTE = 8 * 60;
 const END_MINUTE = 24 * 60;
 const STORAGE_KEY = "mtg-amsterdam-remembered-v1";
+const HEADER_HEIGHT = 30;
+const LANE_HEIGHT = 84;
+const LANE_GAP = 8;
+const GRID_PADDING = 8;
 
 const state = {
   events: [],
@@ -95,37 +99,38 @@ function filterEvents(events) {
   });
 }
 
-function clusterEvents(dayEvents) {
-  const sorted = [...dayEvents].sort((a, b) => a.startMin - b.startMin || a.endMin - b.endMin);
-  const clusters = [];
-  let current = [];
-  let currentEnd = -1;
+function assignLanes(events) {
+  const laneEndMinutes = [];
+  let laneCount = 0;
+  const sorted = [...events].sort((a, b) => a.startMin - b.startMin || a.endMin - b.endMin);
 
   for (const event of sorted) {
-    if (!current.length || event.startMin < currentEnd) {
-      current.push(event);
-      currentEnd = Math.max(currentEnd, event.endMin);
-    } else {
-      clusters.push(current);
-      current = [event];
-      currentEnd = event.endMin;
+    let lane = 0;
+    while (lane < laneEndMinutes.length && laneEndMinutes[lane] > event.startMin) {
+      lane += 1;
     }
+    laneEndMinutes[lane] = event.endMin;
+    event.lane = lane;
+    laneCount = Math.max(laneCount, lane + 1);
   }
-  if (current.length) clusters.push(current);
-  return clusters;
+
+  for (const event of sorted) event.laneCount = laneCount;
+  return Math.max(1, laneCount);
 }
 
-function placeCluster(cluster) {
-  const colEnd = [];
-  let maxCols = 0;
-  for (const event of cluster) {
-    let col = 0;
-    while (col < colEnd.length && colEnd[col] > event.startMin) col++;
-    colEnd[col] = event.endMin;
-    event.col = col;
-    maxCols = Math.max(maxCols, col + 1);
+function formatHourLabel(minutesFromMidnight) {
+  const hour = Math.floor(minutesFromMidnight / 60)
+    .toString()
+    .padStart(2, "0");
+  return `${hour}:00`;
+}
+
+function buildHourTicks() {
+  const ticks = [];
+  for (let minute = START_MINUTE; minute <= END_MINUTE; minute += 60) {
+    ticks.push(minute);
   }
-  for (const event of cluster) event.colCount = maxCols;
+  return ticks;
 }
 
 function formatCost(cost) {
@@ -146,6 +151,12 @@ function formatDateLabel(iso) {
     day: "2-digit",
     month: "short"
   }).format(new Date(iso));
+}
+
+function cleanTitle(title) {
+  return String(title ?? "")
+    .replace(/\s*\(Click here for more info\)\s*$/i, "")
+    .trim();
 }
 
 function saveRemembered() {
@@ -198,13 +209,30 @@ function renderCalendarDay(day, events) {
   const tpl = document.getElementById("dayTemplate");
   const node = tpl.content.firstElementChild.cloneNode(true);
   node.querySelector(".day-title").textContent = day;
-  const layer = node.querySelector(".events-layer");
+  const timelineScroll = node.querySelector(".timeline-scroll");
   const grid = node.querySelector(".day-grid");
-  grid.style.height = `${(END_MINUTE - START_MINUTE) * PX_PER_MINUTE}px`;
-
+  const labels = node.querySelector(".hour-labels");
+  const layer = node.querySelector(".events-layer");
+  const hourWidth = 60 * PX_PER_MINUTE_X;
+  const timelineWidth = (END_MINUTE - START_MINUTE) * PX_PER_MINUTE_X;
   const dayEvents = events.filter((event) => event.renderDay === day);
-  const clusters = clusterEvents(dayEvents);
-  for (const cluster of clusters) placeCluster(cluster);
+  const laneCount = assignLanes(dayEvents);
+  const timelineHeight =
+    HEADER_HEIGHT +
+    GRID_PADDING * 2 +
+    laneCount * LANE_HEIGHT +
+    Math.max(0, laneCount - 1) * LANE_GAP;
+
+  grid.style.width = `${timelineWidth}px`;
+  grid.style.height = `${timelineHeight}px`;
+  grid.style.setProperty("--hour-width", `${hourWidth}px`);
+
+  labels.innerHTML = buildHourTicks()
+    .map((minute) => {
+      const left = (minute - START_MINUTE) * PX_PER_MINUTE_X;
+      return `<span class="hour-label" style="left:${left}px">${formatHourLabel(minute)}</span>`;
+    })
+    .join("");
 
   for (const event of dayEvents) {
     const card = document.createElement("article");
@@ -212,16 +240,17 @@ function renderCalendarDay(day, events) {
     card.setAttribute("role", "button");
     card.tabIndex = 0;
     card.title = event.isRemembered ? "Click to remove from Saved" : "Click to add to Saved";
-    const widthPercent = 100 / event.colCount;
-    card.style.left = `calc(${event.col * widthPercent}% + 2px)`;
-    card.style.width = `calc(${widthPercent}% - 4px)`;
-    card.style.top = `${(event.startMin - START_MINUTE) * PX_PER_MINUTE}px`;
-    card.style.height = `${Math.max(22, (event.endMin - event.startMin) * PX_PER_MINUTE)}px`;
+    const left = (event.startMin - START_MINUTE) * PX_PER_MINUTE_X;
+    const width = Math.max(88, (event.endMin - event.startMin) * PX_PER_MINUTE_X);
+    const top = HEADER_HEIGHT + GRID_PADDING + event.lane * (LANE_HEIGHT + LANE_GAP);
+    card.style.left = `${left}px`;
+    card.style.width = `${width}px`;
+    card.style.top = `${top}px`;
+    card.style.height = `${LANE_HEIGHT}px`;
     card.innerHTML = `
-      <div class="event-title">${event.title}</div>
+      <div class="event-title">${cleanTitle(event.title)}</div>
       <div class="event-meta">${event.timeLabel}</div>
       <div class="event-meta">${formatCost(event.cost)}</div>
-      <div class="event-meta">${event.isRemembered ? "Saved" : "Click to save"}</div>
     `;
     card.addEventListener("click", () => toggleRemembered(event));
     card.addEventListener("keydown", (keyboardEvent) => {
@@ -264,7 +293,7 @@ function renderSavedView() {
       const idLine = event.sourceEventId ? `<div class="saved-meta">Event ID: ${event.sourceEventId}</div>` : "";
       return `
         <article class="saved-card">
-          <h3>${event.title}</h3>
+          <h3>${cleanTitle(event.title)}</h3>
           <div class="saved-meta">${formatDateLabel(event.start)}</div>
           <div class="saved-meta">Time: ${event.timeLabel}</div>
           <div class="saved-meta">${formatCost(event.cost)}</div>
