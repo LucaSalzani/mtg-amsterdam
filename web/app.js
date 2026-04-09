@@ -3,7 +3,8 @@ const DAYS = ["Friday", "Saturday", "Sunday"];
 const SAVED_VIEW = "Saved";
 const TZ = "Europe/Amsterdam";
 const START_MINUTE = 8 * 60;
-const END_MINUTE = 24 * 60;
+const BASE_END_MINUTE = 24 * 60;
+const MAX_OVERNIGHT_EXTENSION_MINUTES = 4 * 60;
 const STORAGE_KEY = "mtg-amsterdam-remembered-v1";
 
 const state = {
@@ -114,7 +115,8 @@ function assignLanes(events) {
 }
 
 function formatHourLabel(minutesFromMidnight) {
-  const hour = Math.floor(minutesFromMidnight / 60)
+  const normalized = ((minutesFromMidnight % (24 * 60)) + 24 * 60) % (24 * 60);
+  const hour = Math.floor(normalized / 60)
     .toString()
     .padStart(2, "0");
   return `${hour}:00`;
@@ -140,12 +142,23 @@ function getLayoutMetrics() {
   };
 }
 
-function buildHourTicks() {
+function buildHourTicks(dayEndMinute) {
   const ticks = [];
-  for (let minute = START_MINUTE; minute <= END_MINUTE; minute += 60) {
+  for (let minute = START_MINUTE; minute <= dayEndMinute; minute += 60) {
     ticks.push(minute);
   }
   return ticks;
+}
+
+function computeDayEndMinute(dayEvents) {
+  let maxEnd = BASE_END_MINUTE;
+  for (const event of dayEvents) {
+    if (typeof event.rawEndMin === "number") {
+      maxEnd = Math.max(maxEnd, event.rawEndMin);
+    }
+  }
+  const overflow = Math.max(0, maxEnd - BASE_END_MINUTE);
+  return BASE_END_MINUTE + Math.min(MAX_OVERNIGHT_EXTENSION_MINUTES, overflow);
 }
 
 function formatCost(cost) {
@@ -205,17 +218,21 @@ function buildRenderableEvents(events) {
     .map((event) => {
       const start = parseIsoToParts(event.start);
       const end = parseIsoToParts(event.end);
+      let rawEndMin = end.minutes;
+      if (end.day !== start.day || rawEndMin <= start.minutes) {
+        rawEndMin += 24 * 60;
+      }
       return {
         ...event,
         renderDay: start.day,
-        startMin: Math.max(START_MINUTE, start.minutes),
-        endMin: Math.min(END_MINUTE, Math.max(start.minutes + 15, end.minutes)),
+        rawStartMin: start.minutes,
+        rawEndMin,
         timeLabel: `${start.hhmm} - ${end.hhmm}`,
         rememberKey: eventKey(event),
         isRemembered: state.remembered.has(eventKey(event))
       };
     })
-    .filter((event) => event.endMin > START_MINUTE && event.startMin < END_MINUTE);
+    .filter((event) => event.rawEndMin > START_MINUTE);
 }
 
 function renderCalendarDay(day, events) {
@@ -230,9 +247,26 @@ function renderCalendarDay(day, events) {
   const layer = node.querySelector(".events-layer");
   const layout = getLayoutMetrics();
   const hourWidth = 60 * layout.pxPerMinuteX;
-  const timelineWidth = (END_MINUTE - START_MINUTE) * layout.pxPerMinuteX;
-  const dayEvents = events.filter((event) => event.renderDay === day);
-  const laneCount = assignLanes(dayEvents);
+  const dayEvents = events
+    .filter((event) => event.renderDay === day)
+    .map((event) => ({ ...event }));
+  const dayEndMinute = computeDayEndMinute(dayEvents);
+
+  for (const event of dayEvents) {
+    const clampedStart = Math.max(START_MINUTE, Math.min(dayEndMinute, event.rawStartMin));
+    const clampedEnd = Math.max(
+      clampedStart + 15,
+      Math.min(dayEndMinute, Math.max(event.rawEndMin, clampedStart + 15))
+    );
+    event.startMin = clampedStart;
+    event.endMin = clampedEnd;
+  }
+
+  const visibleDayEvents = dayEvents.filter(
+    (event) => event.endMin > START_MINUTE && event.startMin < dayEndMinute
+  );
+  const timelineWidth = (dayEndMinute - START_MINUTE) * layout.pxPerMinuteX;
+  const laneCount = assignLanes(visibleDayEvents);
   const timelineHeight =
     layout.headerHeight +
     layout.gridPadding * 2 +
@@ -243,14 +277,14 @@ function renderCalendarDay(day, events) {
   grid.style.height = `${timelineHeight}px`;
   grid.style.setProperty("--hour-width", `${hourWidth}px`);
 
-  labels.innerHTML = buildHourTicks()
+  labels.innerHTML = buildHourTicks(dayEndMinute)
     .map((minute) => {
       const left = (minute - START_MINUTE) * layout.pxPerMinuteX;
       return `<span class="hour-label" style="left:${left}px">${formatHourLabel(minute)}</span>`;
     })
     .join("");
 
-  for (const event of dayEvents) {
+  for (const event of visibleDayEvents) {
     const card = document.createElement("article");
     card.className = `event-card${event.isRemembered ? " event-card--remembered" : ""}`;
     card.setAttribute("role", "button");
